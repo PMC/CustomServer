@@ -1,4 +1,4 @@
-FROM linuxserver/plex:latest
+FROM linuxserver/plex:latest 
 LABEL org.freenas.interactive="false" 		\
       org.freenas.version="Latest (Auto Update)"		\
       org.freenas.upgradeable="true"		\
@@ -37,6 +37,11 @@ LABEL org.freenas.interactive="false" 		\
           {							\
               \"env\": \"PGID\",				\
               \"descr\": \"Plex Group ID\",			\
+              \"optional\": true				\
+          },							\
+          {							\
+              \"env\": \"VERSION\",				\
+              \"descr\": \"Set whether to update plex or not (latest)\",			\
               \"optional\": true				\
           } \
       ]"
