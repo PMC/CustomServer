@@ -38,10 +38,5 @@ LABEL org.freenas.interactive="false" 		\
               \"env\": \"PGID\",				\
               \"descr\": \"Plex Group ID\",			\
               \"optional\": true				\
-          },							\
-          {							\
-              \"env\": \"VERSION\",				\
-              \"descr\": \"Set whether to update plex or not (latest)\",			\
-              \"optional\": true				\
           } \
       ]"
