@@ -52,6 +52,7 @@ LABEL org.freenas.interactive="false" 		\
       org.freenas.web-ui-protocol="https"	\
       org.freenas.web-ui-port=32400		\
       org.freenas.web-ui-path="web"		\
+      org.freenas.port-mappings="32400:32400/tcp,32469:32469/tcp,1900:1900/udp,32410:32410/udp,32412:32412/udp,32413:32413/udp,32414:32414/udp"			\
       org.freenas.volumes="[					\
           {							\
               \"name\": \"/config\",				\
